@@ -11,7 +11,9 @@
     <main>
         <div class="aboutContaner">
             <div class="aboutInfo">
-                <img src="./img/Orkut_logo.gif">
+                <div class="orkutLogo">
+                    <img src="./img/Orkut_logo.gif">
+                </div>
                 <p>
                     <span class="textMark">Conecte-se</span> aos seus amigos e familiares usando recados e mensagens instantâneas
                 </p>
@@ -30,37 +32,45 @@
             <div class="asideBox">
                 <div class="asideHeader">
                     <p>Acesse o orkut com a sua</p>
-                    <p class="asideMark">
-                        Conta do 
+                    <div class="asideHeaderInfo">
+                        <p class="asideMark">
+                            Conta do 
+                        </p>
                         <img src="./img/Google-new_19.png">
-                    </p>
+                    </div>
                 </div>
                 <form>
-                    <div>
-                        <label>E-mail:</label>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <label>Senha:</label>
-                        <input type="password">
+                    <div class="loginContainer">
+                        <div class="loginInfo">
+                            <label class="loginText">E-mail:</label>
+                            <input class="loginInput" type="text">
+                        </div>
+                        <div class="loginInfo">
+                            <label class="loginText">Senha:</label>
+                            <input class="loginInput" type="password">
+                        </div>
                     </div>
                     <div class="checkboxContainer">
-                        <input type="checkbox" name="salvar-info" value="salvar-info">
-                        <label for="salvar-info">Salvar as minhas informações neste computador</label><br>
+                        <div class="checkbox">
+                            <input type="checkbox" name="salvar-info" id="salvar-info" value="salvar-info">
+                        </div>
+                        <div class="Warning">
+                            <label for="salvar-info">Salvar as minhas informações neste computador</label>
+                            <p class="Warning-text">Não use em computadores públicos <br>
+                                [<a href="#">?</a>]</p>
+                            <button class="login-button">Login</button>                    
+                        </div>
                     </div>
-                    <div class="Warning">
-                        <p>Não use em computadores públicos <br>
-                            [<a href="#">?</a>]</p>                    
-                    </div>
-                    <button>Login</button>
                 </form>
-                <p>
+                <p class="problemAccess">
                     <a href="#">Não consegue acessar a sua conta?</a>
                 </p>
             </div>
             <div class="asideFooter asideBox">
-                Ainda não é membro?<br>
-                <a class="asideMark" href="#">Entre Já</a>
+                <div class="asideFooterContent">
+                    <p>Ainda não é membro?<br></p>
+                    <a class="asideMark" href="#">ENTRE JÁ</a>
+                </div>
             </div>
         </aside>
     </main>

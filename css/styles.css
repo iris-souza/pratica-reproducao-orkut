@@ -1,3 +1,216 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
 body{
     margin: 0;
+    background-color: #d5ddf1;
+}
+main{
+    display: table;
+    border-spacing: 10px;
+    width: 100%;
+}
+
+.aboutContaner{
+    background-color: #ffff;
+    width: 60%;
+    padding: 10px 30px;
+}
+
+.aboutContaner, aside{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.aboutInfo{
+    padding: 12% 0
+}
+
+.orkutLogo{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.orkutLogo img{
+    margin: auto;
+}
+
+.aboutInfo p{
+    text-align: center;
+    margin: 0;
+}
+
+.textMark{
+    color: #a33382;
+    font-weight: 800;
+}
+
+.aboutFooter{
+    text-align: center;
+}
+aside{
+    width: 40%;
+}
+
+.asideHeaderInfo, .loginInfo{
+    justify-content: center;
+    margin: auto;
+}
+
+.asideHeaderInfo{
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    margin: 0 auto;
+}
+
+.loginInfo{
+    margin-bottom: 10px;
+}
+
+form{
+    gap: 1%;
+}
+.asideMark {
+    height: 25px;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.asideHeaderInfo img{
+    height: 30px;
+    margin-top: 4px;
+}
+
+.asideBox{
+    background-color: #e8eefa;
+    border: #f9feff solid;
+    padding: 10px;
+}
+
+.asideHeader {
+    text-align: center;
+}
+.asideHeaderInfo p.asideMark,
+.asideHeaderInfo img {
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    margin-right: 5px;
+}
+.loginContainer{
+    justify-content: left;
+}
+.loginText{
+    width: 50px;
+    display: inline-block;
+}
+
+.checkboxContainer{
+    display: table;
+    padding-left: 10px;
+}
+
+.checkbox{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.checkboxContainer p {
+    margin: 5px 0 0;
+}
+
+.asideFooter{
+    margin-top: 10px;
+    text-align: center;
+}
+.problemAccess{
+    text-align: center;
+}
+.Warning-text{
+    margin: 10px;
+    color: #666666;
+    font-size: 14px
+}
+
+.checkbox input[type="checkbox"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #FFFF 30%, #e7e9f6 100%);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3), inset 0px 0px 2px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+  .loginInput {
+    width: 60%;
+    height: 35px;
+    border-color: transparent;
+    background: linear-gradient(to bottom, #FFFF 30%, #e7e9f6 100%);
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), inset 0px 0px 2px rgba(0, 0, 0, 0.5);
+  }
+  .checkbox input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 4px;
+    height: 8px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }  
+
+.login-button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 4px #666666;
+    border-width: 4px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #FFFF 30%, #e7e9f6 100%);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3), inset 0px 0px 2px rgba(0,0,0,0.5);    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.asideFooterContent{
+    margin: 10px;
+}
+
+.asideFooterContent p{
+    margin: 5px;
+}
+
+.footerContent{
+    display: inline-block;
+    width: 100%;
+    background-color: #bccdeb;
+}
+
+.footer{
+    text-align: center;
+}
+.footerContent {
+    padding: 5px;
+    display: inline-block;
+}
+
+.footerContent > div,
+.footerContent nav {
+display: inline-block;
+vertical-align: middle;
+}
+
+.footerContent nav a {
+margin: 0 5px;
+}
+
+a {
+    color: #3366cc;
 }
