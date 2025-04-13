@@ -214,3 +214,62 @@ margin: 0 5px;
 a {
     color: #3366cc;
 }
+
+@media screen and (max-width: 768px) {
+    main {
+      display: block;
+      padding: 10px;
+    }
+    .aboutInfo {
+        padding: 2% 0;
+    }
+  
+    .aboutContaner, aside {
+      display: block;
+      width: 100% !important;
+      margin: 10px 0;
+    }
+  
+    .orkutLogo img {
+      max-width: 200px;
+    }
+  
+    .aboutInfo p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+  
+    .asideBox {
+      margin: 10px 0;
+      padding: 15px;
+    }
+  
+    .asideHeaderInfo {
+      display: block;
+      text-align: center;
+    }
+  
+    .footerContent {
+      display: block;
+      text-align: center;
+    }
+  
+    .footerContent nav {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .footerContent nav a {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    .problemAccess {
+      margin: 15px 0;
+    }
+  
+    .asideFooterContent {
+      text-align: center;
+      margin: 0;
+    }
+  }
