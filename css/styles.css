@@ -31,7 +31,7 @@ main{
 .orkutLogo{
     width: 100%;
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .orkutLogo img{
@@ -236,8 +236,11 @@ a {
     }
   
     .aboutInfo p {
-      font-size: 14px;
-      margin: 5px 0;
+      margin: 10px 0;
+    }
+
+    .aboutFooter{
+        margin-top: 15px;
     }
   
     .asideBox {
