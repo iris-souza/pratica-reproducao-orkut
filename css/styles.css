@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: tahoma, sans-serif;
   }
 body{
     margin: 0;
@@ -77,8 +77,8 @@ form{
 .asideMark {
     height: 25px;
     font-size: 22px;
-    font-weight: 800;
-    margin-top: 0;
+    font-weight: 550;
+    margin-top: 2px;
 }
 
 .asideHeaderInfo img{
@@ -141,7 +141,7 @@ form{
     appearance: none;
     width: 16px;
     height: 16px;
-    border-radius: 3px;
+    border-radius: 2px;
     background: linear-gradient(to bottom, #FFFF 30%, #e7e9f6 100%);
     box-shadow: 1px 1px 2px rgba(0,0,0,0.3), inset 0px 0px 2px rgba(0,0,0,0.5);
     cursor: pointer;
@@ -150,9 +150,9 @@ form{
   }
   .loginInput {
     width: 60%;
-    height: 35px;
+    height: 30px;
     border-color: transparent;
-    background: linear-gradient(to bottom, #FFFF 30%, #e7e9f6 100%);
+    background: #ffff;
     border: none;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), inset 0px 0px 2px rgba(0, 0, 0, 0.5);
   }
@@ -173,7 +173,7 @@ form{
     padding: 5px 10px;
     border: 4px #666666;
     border-width: 4px;
-    border-radius: 5px;
+    border-radius: 2px;
     background: linear-gradient(to bottom, #FFFF 30%, #e7e9f6 100%);
     box-shadow: 1px 1px 2px rgba(0,0,0,0.3), inset 0px 0px 2px rgba(0,0,0,0.5);    cursor: pointer;
     transition: all 0.2s ease;
@@ -199,6 +199,7 @@ form{
 .footerContent {
     padding: 5px;
     display: inline-block;
+    text-align: center;
 }
 
 .footerContent > div,
