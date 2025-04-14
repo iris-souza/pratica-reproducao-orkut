@@ -34,7 +34,7 @@ Todos os elementos foram organizados com uso de posicionamento clássico via `fl
    ```bash
    git clone https://github.com/iris-souza/pratica-reproducao-orkut
 
-    Você pode abrir o arquivo `index.html` diretamente no navegador.
+Você pode abrir o arquivo `index.html` diretamente no navegador.
 2. **Acessar a versão publicada no GitHub Pages**
     https://iris-souza.github.io/pratica-reproducao-orkut/
 
